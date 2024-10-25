@@ -1,0 +1,58 @@
+.index_navHeader {
+  height: 64px;
+  width: 100%;
+  transition: height .3s;
+  background: #f00;
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  li {
+    margin-right: 1em;
+  }
+}
+.tab_box{
+  width: 1312px;
+  margin: 20px auto;
+}
+.tab_box{
+  .ant-tabs-nav{
+    &::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      border: none;
+    }
+  }
+  .ant-tabs-tab{
+    flex: none;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+    padding: 0 24px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background: #edeff2;
+    transition: background .3s;
+    color: #262629;
+    font-size: 16px;
+    transition: all .2s;
+    margin:0 20px 0 0!important;
+  }
+  .ant-tabs-tab-active{
+    color: #fff;
+    background: #262629;
+    transition: background .3s;
+    .ant-tabs-tab-btn{
+      color:#fff !important;
+    }
+  }
+  .ant-tabs-ink-bar {
+    display: none;
+  }
+}
