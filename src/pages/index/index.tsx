@@ -19,6 +19,7 @@ const items: TabsProps['items'] = [
   { key: '4', label: '视频会议', children: 'Content of Tab Pane 2' },
   { key: '5', label: '专业级产品', children: 'Content of Tab Pane 3' },
   { key: '6', label: '全景相机', children: 'Content of Tab Pane 2' },
+  { key: '7', label: '77777', children: '77777777777777777' },
 ];
 
 type Align = 'start' | 'center' | 'end';
